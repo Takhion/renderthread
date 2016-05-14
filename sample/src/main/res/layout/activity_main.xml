@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context=".MainActivity"
+  style="@style/Root">
+
+  <TextView style="@style/Description" />
+
+  <Button
+    android:id="@+id/button_test"
+    android:text="Start test"
+    style="@style/Button" />
+
+  <LinearLayout style="@style/Wrapper">
+
+    <me.eugeniomarletti.renderthread.sample.TestView
+      android:id="@+id/test_on"
+      style="@style/TestView">
+
+      <TextView
+        android:text="ON"
+        style="@style/Label" />
+
+    </me.eugeniomarletti.renderthread.sample.TestView>
+
+    <me.eugeniomarletti.renderthread.sample.TestView
+      android:id="@+id/test_off"
+      style="@style/TestView">
+
+      <TextView
+        android:text="OFF"
+        style="@style/Label" />
+
+    </me.eugeniomarletti.renderthread.sample.TestView>
+
+  </LinearLayout>
+
+</LinearLayout>

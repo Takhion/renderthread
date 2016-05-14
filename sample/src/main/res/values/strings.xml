@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">RenderThread sample</string>
+  <string name="test_description">This test will start two animations, one running ON the RenderThread (if possible) and one OFF it, then will pause the UI thread for one second.</string>
+</resources>
